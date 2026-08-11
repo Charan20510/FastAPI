@@ -1,0 +1,29 @@
+1)  Client   = request data from backend
+    Rest API = fetch data from database
+    Database = stores all required data
+
+    GET, POST, PUT & DELETE => b/w any two nodes
+    Data format => JSON data
+
+    {{ 1.png }}
+
+2)  What is FastAPI?
+    - python framework
+    - used to build fast & high performance API
+
+3)  Why FastAPI over Flask / Django?
+    - faster then both Flast & Django
+    - python base structure
+    - automatic API doc, to test the APIs
+    - readymade UI that can be used as API doc
+    - Async = handle multiple users at same time
+    - handle high traffic application
+
+    {{ 2.png }}
+
+4)  venv = dependency isolation for different projects
+
+5)  uvicorn = is a server used to run application
+
+    ### RUN SERVER ###
+    uvicorn main:app --reload
