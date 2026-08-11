@@ -1,0 +1,14 @@
+1)  Dynamic Route = URL Route function will be same but the output change based
+    on id
+
+2)  Dynamic route using Data type
+    eg. id:int, id:str
+
+    - def users(id: str):
+        FastAPI treats id as a string
+    - def users(id: int):
+        FastAPI doesn't allow string now
+
+3)  Path parameters uses
+    - fetch specific record from DB
+    eg. user by id, product by id
